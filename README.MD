@@ -23,12 +23,3 @@ This is a simple Java program that allows users to create a text file and write 
 4. Compile the program using:
    ```bash
    javac Main.java && java Main
-
-## Example
-
-> enter your file name
-  exampleFile
-> enter your text in your file
-  Hello, this is a test file!
-
-file created
