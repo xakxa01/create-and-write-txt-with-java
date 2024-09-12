@@ -11,6 +11,8 @@ public class Main {
 	public static void main(String[] arg) {
 		Scanner scanner = new Scanner(System.in);
 		String inputFileName = scannerPrint(scanner, "enter your file name");
+		
+		new File("./files").mkdirs();
 		File myFile = new File("./files/" + inputFileName + ".txt");
 
 		try {
